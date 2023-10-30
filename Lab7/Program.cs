@@ -43,7 +43,7 @@ namespace Lab7
             */
             #endregion
             #region 2. feladat
-            /*
+
             Zh[] diakok = new Zh[20];
             int count = 0;
             for(int i = 0; i < diakok.Length; i++)
@@ -52,7 +52,6 @@ namespace Lab7
                 if (diakok[i].atment()) count++;
             }
             Console.WriteLine(count);
-            */
             #endregion
             #region 3. feladat
 

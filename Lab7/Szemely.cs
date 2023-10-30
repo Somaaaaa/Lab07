@@ -19,19 +19,19 @@ namespace Lab7
             this.eletkor = eletkor;
             this.foglalkozas = foglalkozas;
         }
-        public Szemely(string eleresiUt)
-        {
-            AdatokBeolvasasaFajlbol(eleresiUt);
-        }
-        public void AdatokKiirasa()
-        {
-            string fajlNev = MonogramMegallapitas() + ".dat";
-            File.WrtieAllText(fajlNev, AdatokStingeAlakitasa());
-        }
-        public void AdatokBeolvasasaFajlbol()
-        {
-            string[] tmep = File.ReadAllLines("inout,txt");
-            string[] adatok = temp[0].Split(' ')
-        }
+        //public Szemely(string eleresiUt)
+        //{
+        //    AdatokBeolvasasaFajlbol(eleresiUt);
+        //}
+        //public void AdatokKiirasa()
+        //{
+        //    string fajlNev = MonogramMegallapitas() + ".dat";
+        //    File.WrtieAllText(fajlNev, AdatokStingeAlakitasa());
+        //}
+        //public void AdatokBeolvasasaFajlbol()
+        //{
+        //    string[] tmep = File.ReadAllLines("inout,txt");
+        //    string[] adatok = temp[0].Split(' ');
+        //}
     }
 }
